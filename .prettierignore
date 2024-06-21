@@ -1,0 +1,8 @@
+package*
+*.lock
+/node_modules
+/dist
+/vendor
+/libs
+/libraries
+LICENSE
