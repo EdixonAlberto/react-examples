@@ -10,6 +10,7 @@ import { Auth } from '~/views/Auth'
 import { Home } from '~/views/Home'
 import { Login } from '~/views/Auth/Login'
 import { NotFound } from '~/views/NotFound'
+import { QR } from '~/views/QR'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         {/* Routes Public */}
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/qr" element={<QR />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
